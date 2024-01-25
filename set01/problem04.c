@@ -1,17 +1,16 @@
 #include<stdio.h>
-int input(int *a,int *b)
+void input(int *a,int *b)
 {
     int x;
     printf("enter the value of x");
-    scanf("%d",&x);
-    return x;
+    scanf("%d",x);
 }
 
 void add(int a,int b,int *sum)
 {
     int a,b,*sum;
     *sum=a+b;
-    return *sum;
+    
 }
 
 void output(int a,int b,int sum)
@@ -22,8 +21,7 @@ void output(int a,int b,int sum)
 int main()
 {
     int a,b,sum;
-    a=input();
-    b=input();
+    input(&a,&b);
     add(a,b,&sum);
     output(a,b,sum);
 }
