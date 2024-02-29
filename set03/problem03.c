@@ -20,7 +20,7 @@ void output(int n, int result)
 {
 if(result>0)
 {
-printf("%d is a prime number",n);
+printf("%d is aa prime number",n);
 }
 else if(result<0){
 printf("%d is not a prime number",n);
