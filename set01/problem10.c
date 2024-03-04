@@ -1,5 +1,5 @@
 #include<stdio.h>
- int input_strings(char *string1,char*string2)
+ void input_strings(char *string1,char*string2)
 {
     printf("enter string 1");
     scanf("%s",string1);
